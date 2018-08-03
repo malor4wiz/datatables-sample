@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DatatablesSample</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= javascript_include_tag 'https://code.jquery.com/jquery-3.3.1.js' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= stylesheet_link_tag    'https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', media: 'all' %>
+    <%= stylesheet_link_tag    'https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css'%>
+    <%= javascript_include_tag 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js' %>
+    <%= javascript_include_tag 'https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js' %>
+    <%= javascript_include_tag 'https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
