@@ -4,7 +4,7 @@ class DatatablesController < ApplicationController
   # GET /datatables
   # GET /datatables.json
   def index
-    @datatables = Datatable.all
+    #@datatables = Datatable.all
   end
 
   # GET /datatables/1
@@ -14,7 +14,7 @@ class DatatablesController < ApplicationController
 
   # GET /datatables/new
   def new
-    @datatable = Datatable.new
+    #@datatable = Datatable.new
   end
 
   # GET /datatables/1/edit
